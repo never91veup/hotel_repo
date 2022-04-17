@@ -1,0 +1,278 @@
+/* Общие стили */
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Стилизация касаемо макета */
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .btn {
+  display: inline-block;
+  padding: 15px 16px;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: white;
+  background-color: #3172b9;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+/* .text-center {
+  text-align: center;
+} */
+
+/* Header */
+
+.header {
+  height: 154px;
+  margin-top: 30px;
+}
+
+.header-container {
+  display: block;
+  height: 100%;
+  }
+
+.header-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-up-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.header-up-right {
+  margin-left: auto;
+}
+
+.header-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 57px;
+  margin-bottom: 27px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header-down-right {
+  margin-left: auto;
+}
+
+/* .nav-link-next {
+  margin-right: 40px;
+  padding: 13px 20px;
+  border: 1px solid #CC9933;
+  box-sizing: border-box;
+  border-radius: 10px;
+} */
+
+/* Special */
+
+.section-special {
+  padding-bottom: 70px;
+}
+
+.section-special-heading {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.section-special-list {
+  display: flex;
+}
+
+.section-special-item {
+  width: 573px;
+  height: 258px;
+  margin-right: 23px;
+}
+
+.section-special-item:not(:last-child) {
+  margin-bottom: 23px;
+}
+
+.section-special-list-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-special-list-right {
+  display: flex;
+  flex-direction: row;
+  width: 573px;
+}
+
+.right-card {
+  margin-right: 0;
+  height: 539px;
+}
+
+/* Abot Us */
+
+.section-aboutus {
+  padding-bottom: 70px;
+}
+
+.section-aboutus-container {
+  max-width: 888px;
+}
+
+.section-aboutus-header {
+  margin-bottom: 11px;
+  margin-top: 0;
+}
+
+.section-aboutus-content {
+  margin: 0;
+}
+
+/* Services */
+
+.section-services {
+  padding-bottom: 70px;
+}
+
+.section-services-header {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.section-services-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-services-item {
+  flex: 1 1 49%;
+  margin-bottom: 23px;
+}
+
+.section-services-item:not(:nth-child(2n)) {
+  margin-right: 23px;
+}
+
+.section-services-item:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.section-services-item:nth-child(4) {
+  margin-bottom: 0;
+}
+
+/* Advantages */
+
+.section-advantages {
+  padding-bottom: 70px;
+}
+
+.section-advantages-header {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.section-advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-advantages-item {
+  flex: 1 1 23%;
+  margin-bottom: 23px;
+}
+
+.section-advantages-item:not(:nth-child(4n)) {
+  margin-right: 23px;
+}
+
+.section-advantages-item:nth-child(5) {
+  margin-bottom: 0;
+}
+
+.section-advantages-item:nth-child(6) {
+  margin-bottom: 0;
+}
+
+.section-advantages-item:nth-child(7) {
+  margin-bottom: 0;
+}
+
+.section-advantages-item:nth-child(8) {
+  margin-bottom: 0;
+}
+
+/* Placing */
+
+.section-placing {
+  padding-bottom: 70px;
+}
+
+.section-placing-header {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.section-placing-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-placing-item {
+  flex: 1 1 32%;
+  margin-bottom: 23px;
+}
+
+.section-placing-item:not(:nth-child(3n)) {
+  margin-right: 23px;
+}
+
+.section-placing-item:nth-child(7) {
+  margin-bottom: 0;
+}
+
+.section-placing-item:nth-child(8) {
+  margin-bottom: 0;
+}
+
+.section-placing-item:nth-child(9) {
+  margin-bottom: 0;
+}

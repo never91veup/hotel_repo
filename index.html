@@ -3,87 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <title>Hotels</title>
+    <link rel="stylesheet" href="/hotel_repo/css/style.css">
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <a href="" class="logo">
-          <img src="/hotel_repo/img/logo.svg" alt="" class="logo-img" />
-        </a>
-        <div class="header-info">
-          <a href="tel:+74953225448" class="header-link">
-            +7 (495) 322-54-48
-          </a>
+      <div class="container header-container">
+        <div class="header-up">
+          <div class="header-up-left">
+            <a href="" class="logo">
+              <img src="" alt="Лагуна - сеть отелей" class="logo-img" />
+            </a>
+            <div class="header-info">
+              <a href="tel:+74953225448" class="header-link">
+                +7 495 322 54 48
+              </a>
+            </div>
+          </div>
+          <div class="header-up-right">
+            <div class="header-login">
+              <a href="" class="header-login-link">Личный кабинет</a>
+            </div>
+          </div>
         </div>
-        <div class="header-login">
-          <a href="" class="header-login-link">Личный кабинет</a>
+        <div class="header-down">
+          <div class="header-down-left">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a href="" class="nav-link">О нас</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Услуги</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Преимущества</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Размещение</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Блог</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+            <div class="header-down-right">
+              <input type="button" class="nav-link-next" value="Хочу тур">
+              <input type="button" class="nav-link-next" value="Обратный звонок">
+            </div>
         </div>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="" class="nav-link">О нас</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Услуги</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Преимущества</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Размещение</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Блог</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <a href="" class="nav-link-next">Хочу тур</a>
-        <a href="" class="nav-link-next">Обратный звонок</a>
       </div>
     </header>
 
     <main>
       <section class="section-special">
-        <div class="container">
-          <h1 class="section-special-heading">
+        <div class="container special-container">
+          <h2 class="section-special-heading">
             Спецпредложения
-          </h1>
+          </h2>
           <ul class="section-special-list">
-            <li class="section-special-item">
-              <img src="/hotel_repo/img/card1.png" alt="" class="section-special-leftcard">
-              <img src="/hotel_repo/img/darken.png" alt="" class="section-special-leftcard">
-              <div class="section-special-leftcard-info">
-                <h2 class="section-special-leftcard-header">
-                  Мальдивские острова
-                </h2>
-                <p class="section-special-leftcard-price">
-                  от 55 000 р
-                </p>
-                <a href="" class="section-special-leftcard-link">
-                  Подробнее
-                </a>
-              </div>
-            </li>
-            <li class="section-special-item">
-              <img src="/hotel_repo/img/card2.png" alt="" class="section-special-leftcard">
-              <img src="/hotel_repo/img/darken.png" alt="" class="section-special-leftcard">
-              <div class="section-special-leftcard-info">
-                <h2 class="section-special-leftcard-header">
-                  Горящий тур на остров Крит
-                </h2>
-                <p class="section-special-leftcard-price">
-                  от 30 000 р
-                </p>
-                <a href="" class="section-special-leftcard-link">
-                  Подробнее
-                </a>
-              </div>
-            </li>
-            <li class="section-special-item">
-              <img src="/hotel_repo/img/card3.png" alt="" class="section-special-rightcard">
+            <div class="section-special-list-left">
+              <li class="section-special-item">
+                <!-- <img src="/hotel_repo/img/card1.png" alt="" class="section-special-leftcard">
+                <img src="/hotel_repo/img/darken.png" alt="" class="section-special-leftcard"> -->
+                <div class="section-special-leftcard-info">
+                  <h2 class="section-special-leftcard-header">
+                    Мальдивские острова
+                  </h2>
+                  <p class="section-special-leftcard-price">
+                    от 55 000 р
+                  </p>
+                  <a href="" class="section-special-leftcard-link">
+                    Подробнее
+                  </a>
+                </div>
+              </li>
+              <li class="section-special-item">
+                <!-- <img src="/hotel_repo/img/card2.png" alt="" class="section-special-leftcard">
+                <img src="/hotel_repo/img/darken.png" alt="" class="section-special-leftcard"> -->
+                <div class="section-special-leftcard-info">
+                  <h2 class="section-special-leftcard-header">
+                    Горящий тур на остров Крит
+                  </h2>
+                  <p class="section-special-leftcard-price">
+                    от 30 000 р
+                  </p>
+                  <a href="" class="section-special-leftcard-link">
+                    Подробнее
+                  </a>
+                </div>
+              </li>
+            </div>
+            <div class="section-special-list-right">
+              <li class="section-special-item right-card">
+              <!-- <img src="/hotel_repo/img/card3.png" alt="" class="section-special-rightcard"> -->
               <div class="section-special-rightcard-info">
                 <h2 class="section-special-rightcard-header">
                   Номера категории люкс
@@ -96,18 +112,21 @@
                 </a>
               </div>
             </li>
+            </div>
           </ul>
         </div>
       </section>
 
       <section class="section-aboutus">
-        <div class="section-aboutus-container">
-          <h2 class="section-aboutus-header">
-            О нас
-          </h2>
-          <p class="section-aboutus-content">
-            Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.
-          </p>
+        <div class="container">
+          <div class="section-aboutus-container">
+            <h2 class="section-aboutus-header">
+              О нас
+            </h2>
+            <p class="section-aboutus-content">
+              Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -118,32 +137,32 @@
           </h2>
           <ul class="section-services-list">
             <li class="section-services-item">
-              <img src="/hotel_repo/img/upimg1.png" alt="" class="section-services-upimg">
-              <img src="/hotel_repo/img/downimg.png" alt="" class="section-services-downimg">
+              <!-- <img src="/hotel_repo/img/upimg1.png" alt="" class="section-services-upimg">
+              <img src="/hotel_repo/img/downimg.png" alt="" class="section-services-downimg"> -->
               <div class="section-services-info">
                 <a href="" class="section-services-link">Эксклюзивное обслуживание</a>
                 <p class="section-services-description">Равным образом постоянный количественный рост и сфера нашей активности</p>
               </div>
             </li>
             <li class="section-services-item">
-              <img src="/hotel_repo/img/upimg2.png" alt="" class="section-services-upimg">
-              <img src="/hotel_repo/img/downimg.png" alt="" class="section-services-downimg">
+              <!-- <img src="/hotel_repo/img/upimg2.png" alt="" class="section-services-upimg">
+              <img src="/hotel_repo/img/downimg.png" alt="" class="section-services-downimg"> -->
               <div class="section-services-info">
                 <a href="" class="section-services-link">Аренда банкетных залов</a>
                 <p class="section-services-description">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
               </div>
             </li>
             <li class="section-services-item">
-              <img src="/hotel_repo/img/upimg3.png" alt="" class="section-services-upimg">
-              <img src="/hotel_repo/img/downimg.png" alt="" class="section-services-downimg">
+              <!-- <img src="/hotel_repo/img/upimg3.png" alt="" class="section-services-upimg">
+              <img src="/hotel_repo/img/downimg.png" alt="" class="section-services-downimg"> -->
               <div class="section-services-info">
                 <a href="" class="section-services-link">Сауны, бассейны, бани, фитнес-залы</a>
                 <p class="section-services-description">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
               </div>
             </li>
             <li class="section-services-item">
-              <img src="/hotel_repo/img/upimg4.png" alt="" class="section-services-upimg">
-              <img src="/hotel_repo/img/downimg.png" alt="" class="section-services-downimg">
+              <!-- <img src="/hotel_repo/img/upimg4.png" alt="" class="section-services-upimg">
+              <img src="/hotel_repo/img/downimg.png" alt="" class="section-services-downimg"> -->
               <div class="section-services-info">
                 <a href="" class="section-services-link">Охраняемые автомобильные стоянки</a>
                 <p class="section-services-description">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
@@ -160,7 +179,7 @@
           </h2>
             <ul class="section-advantages-list">
               <li class="section-advantages-item">
-                <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
+                <!-- <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
                 <svg class="section-advantages-icon" width="64" height="66" viewbox="0 0 64 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_96182_390)">
                     <path d="M37.95 58.4074H20.2875C11.375 58.4074 4.125 50.9308 4.125 41.7398V25.9359C4.125 24.9047 4.9375 24.0797 5.925 24.0797C6.9125 24.0797 7.725 24.9176 7.725 25.9359V41.7527C7.725 48.8941 13.35 54.6949 20.275 54.6949H37.9375C38.9375 54.6949 39.7375 55.5328 39.7375 56.5512C39.75 57.5824 38.95 58.4074 37.95 58.4074Z" fill="#2D527C"/>
@@ -185,11 +204,11 @@
                     <rect width="64" height="66" fill="white"/>
                     </clippath>
                     </defs>
-                </svg>
+                </svg> -->
                 <p class="section-advantages-description">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
               </li>
               <li class="section-advantages-item">
-                <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
+                <!-- <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
                 <svg class="section-advantages-icon" width="67" height="66" viewbox="0 0 67 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M40.8281 49.0746H11.0707V35.0625C11.0707 30.0996 15.1535 26.0777 20.1916 26.0777H40.8281V49.0746Z" fill="#CEE8FA"/>
                   <path d="M40.8281 50.9437H11.0707C10.0238 50.9437 9.17322 50.1058 9.17322 49.0746V35.0625C9.17322 29.0812 14.1197 24.2086 20.1916 24.2086H40.8281C41.875 24.2086 42.7256 25.0465 42.7256 26.0777V49.0746C42.7256 50.1058 41.875 50.9437 40.8281 50.9437ZM12.9681 47.2054H38.9176V27.9597H20.1785C16.2004 27.9597 12.9681 31.1437 12.9681 35.0625V47.2054Z" fill="#2D527C"/>
@@ -203,11 +222,11 @@
                   <path d="M47.5412 65.3554C46.4943 65.3554 45.6437 64.5175 45.6437 63.4863V59.3871C45.6437 58.3558 46.4943 57.5179 47.5412 57.5179C48.5881 57.5179 49.4387 58.3558 49.4387 59.3871V63.4863C49.4387 64.5175 48.5881 65.3554 47.5412 65.3554Z" fill="#2D527C"/>
                   <path d="M39.1531 65.3554C38.1063 65.3554 37.2557 64.5175 37.2557 63.4863V59.3871C37.2557 58.3558 38.1063 57.5179 39.1531 57.5179C40.2 57.5179 41.0506 58.3558 41.0506 59.3871V63.4863C41.0506 64.5175 40.2 65.3554 39.1531 65.3554Z" fill="#2D527C"/>
                   <path d="M30.765 65.3554C29.7181 65.3554 28.8676 64.5175 28.8676 63.4863V59.3871C28.8676 58.3558 29.7181 57.5179 30.765 57.5179C31.8119 57.5179 32.6625 58.3558 32.6625 59.3871V63.4863C32.6625 64.5175 31.8119 65.3554 30.765 65.3554Z" fill="#2D527C"/>
-                  </svg>
+                  </svg> -->
                   <p class="section-advantages-description">Значимость этих проблем настолько очевидна, что вопрос остается открытым</p>
               </li>
               <li class="section-advantages-item">
-                <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
+                <!-- <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
                 <svg class="section-advantages-icon" width="64" height="66" viewbox="0 0 64 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M58.2375 61.2692H49.4375C48.5 61.2692 47.7375 60.4828 47.7375 59.516C47.7375 58.5492 48.5 57.7629 49.4375 57.7629H58.2375C59.55 57.7629 60.6125 56.6672 60.6125 55.3137V23.4867C60.6125 22.1332 59.55 21.0375 58.2375 21.0375H17.2375C15.925 21.0375 14.8625 22.1332 14.8625 23.4867V55.3395C14.8625 56.693 15.925 57.7887 17.2375 57.7887H40.1125C41.05 57.7887 41.8125 58.575 41.8125 59.5418C41.8125 60.5086 41.05 61.2949 40.1125 61.2949H17.2375C14.0625 61.2949 11.475 58.6266 11.475 55.3524V23.4867C11.475 20.2125 14.0625 17.5442 17.2375 17.5442H58.2375C61.4125 17.5442 64 20.2125 64 23.4867V55.3395C64 58.6008 61.4125 61.2692 58.2375 61.2692Z" fill="#2D527C"/>
                   <path d="M23.8375 53.1094C22.2125 53.1094 20.875 51.7301 20.875 50.0543V28.759C20.875 27.0832 22.2125 25.7039 23.8375 25.7039C25.4625 25.7039 26.8 27.0832 26.8 28.759V50.0543C26.7875 51.7301 25.4625 53.1094 23.8375 53.1094Z" fill="#CEE8FA"/>
@@ -222,11 +241,11 @@
                   <path d="M5.92498 61.2691C4.98748 61.2691 4.22498 60.4828 4.22498 59.516V39.4066C4.22498 38.4398 4.98748 37.6535 5.92498 37.6535C6.86248 37.6535 7.62498 38.4398 7.62498 39.4066V59.516C7.62498 60.4828 6.86248 61.2691 5.92498 61.2691Z" fill="#2D527C"/>
                   <path d="M10.175 6.48396H1.70001V15.9199H10.175V6.48396Z" fill="#CEE8FA"/>
                   <path d="M10.1625 17.6602H1.7C0.7625 17.6602 0 16.8738 0 15.9071V6.48401C0 5.51721 0.7625 4.73088 1.7 4.73088H10.175C11.1125 4.73088 11.875 5.51721 11.875 6.48401V15.9199C11.8625 16.8738 11.1 17.6602 10.1625 17.6602ZM3.3875 14.1668H8.475V8.22424H3.3875V14.1668Z" fill="#2D527C"/>
-                  </svg>
+                  </svg> -->
                   <p class="section-advantages-description">Таким образом реализация плановых заданий играет важную роль для понимания</p>
               </li>
               <li class="section-advantages-item">
-                <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
+                <!-- <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
                 <svg class="section-advantages-icon" width="66" height="66" viewbox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_96182_337)">
                   <path d="M38.4527 18.4851H19.207C18.1758 18.4851 17.3379 17.6472 17.3379 16.616C17.3379 15.5847 18.1758 14.7469 19.207 14.7469H38.4527C39.484 14.7469 40.3219 15.5847 40.3219 16.616C40.3219 17.6472 39.484 18.4851 38.4527 18.4851Z" fill="#2D527C"/>
@@ -246,11 +265,11 @@
                   <rect width="66" height="66" fill="white"/>
                   </clippath>
                   </defs>
-                  </svg>
+                  </svg> -->
                   <p class="section-advantages-description">Повседневная практика показывает, что сложившаяся структура организации</p>
               </li>
               <li class="section-advantages-item">
-                <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
+                <!-- <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
                 <svg class="section-advantages-icon" width="66" height="66" viewbox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_96182_462)">
                   <path d="M15.6364 60.3152H11.1891C10.1966 60.3152 9.39734 59.516 9.39734 58.5234C9.39734 57.5308 10.1966 56.7316 11.1891 56.7316H15.6364C16.629 56.7316 17.4282 57.5308 17.4282 58.5234C17.4282 59.516 16.629 60.3152 15.6364 60.3152Z" fill="#F0BF5F"/>
@@ -271,11 +290,11 @@
                   <rect width="66" height="66" fill="white"/>
                   </clippath>
                   </defs>
-                  </svg>
+                  </svg> -->
                   <p class="section-advantages-description">Равным образом рамки и место обучения кадров способствует подготовки сотрудника</p>
               </li>
               <li class="section-advantages-item">
-                <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
+                <!-- <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
                 <svg class="section-advantages-icon" width="64" height="66" viewbox="0 0 64 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M54.025 49.7191H9.97503C8.96253 49.7191 8.15002 48.8812 8.15002 47.8371V45.8519C8.15002 32.291 18.85 21.2566 32 21.2566C34.4875 21.2566 36.9375 21.6562 39.2875 22.4296C40.25 22.7519 40.775 23.8089 40.475 24.8015C40.1625 25.7941 39.1375 26.3355 38.175 26.0261C36.1875 25.3687 34.1125 25.0335 32 25.0335C20.8625 25.0335 11.8 34.3793 11.8 45.8648V45.9679H52.2V45.8648C52.2 40.2703 50.075 35.0109 46.225 31.0664C45.5125 30.3316 45.5 29.1457 46.2125 28.398C46.925 27.6632 48.075 27.6503 48.8 28.3851C53.35 33.0386 55.8625 39.239 55.8625 45.8519V47.8371C55.85 48.8812 55.0375 49.7191 54.025 49.7191Z" fill="#F0BF5F"/>
                   <path d="M32.0001 24.5824C30.9876 24.5824 30.175 23.7445 30.175 22.7004V17.3637C30.175 16.3195 30.9876 15.4816 32.0001 15.4816C33.0126 15.4816 33.8251 16.3195 33.8251 17.3637V22.7004C33.8251 23.7445 33.0126 24.5824 32.0001 24.5824Z" fill="#F0BF5F"/>
@@ -289,11 +308,11 @@
                   <path d="M5.375 35.3074H1.825C0.8125 35.3074 0 34.4695 0 33.4254C0 32.3813 0.8125 31.5434 1.825 31.5434H5.375C6.3875 31.5434 7.2 32.3813 7.2 33.4254C7.2 34.4695 6.3875 35.3074 5.375 35.3074Z" fill="#2D527C"/>
                   <path d="M49.5375 17.2219C49.075 17.2219 48.6 17.0414 48.25 16.6676C47.5375 15.9328 47.5375 14.734 48.25 13.9992L50.75 11.4211C51.4625 10.6863 52.625 10.6863 53.3375 11.4211C54.05 12.1559 54.05 13.3547 53.3375 14.0895L50.825 16.6805C50.475 17.0414 50 17.2219 49.5375 17.2219Z" fill="#2D527C"/>
                   <path d="M14.4625 17.2219C14 17.2219 13.525 17.0414 13.175 16.6676L10.6625 14.0766C9.95005 13.3418 9.95005 12.143 10.6625 11.4082C11.375 10.6735 12.5375 10.6735 13.25 11.4082L15.7625 13.9992C16.475 14.734 16.475 15.9328 15.7625 16.6676C15.4 17.0414 14.9375 17.2219 14.4625 17.2219Z" fill="#2D527C"/>
-                  </svg>
+                  </svg> -->
                   <p class="section-advantages-description">Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса </p>
               </li>
               <li class="section-advantages-item">
-                <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
+                <!-- <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
                 <svg class="section-advantages-icon" width="67" height="66" viewbox="0 0 67 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M60.5094 61.5527H6.49062C2.91816 61.5527 0 58.691 0 55.159V10.841C0 7.30898 2.91816 4.44727 6.49062 4.44727H41.9404C42.9611 4.44727 43.7855 5.25937 43.7855 6.26484C43.7855 7.27031 42.9611 8.08242 41.9404 8.08242H6.49062C4.94648 8.08242 3.69023 9.31992 3.69023 10.841V55.159C3.69023 56.6801 4.94648 57.9176 6.49062 57.9176H60.5094C62.0535 57.9176 63.3098 56.6801 63.3098 55.159V10.841C63.3098 9.31992 62.0535 8.08242 60.5094 8.08242H52.5793C51.5586 8.08242 50.7342 7.27031 50.7342 6.26484C50.7342 5.25937 51.5586 4.44727 52.5793 4.44727H60.5094C64.0949 4.44727 67 7.32187 67 10.841V55.159C67 58.691 64.0818 61.5527 60.5094 61.5527Z" fill="#2D527C"/>
                   <path d="M53.8748 53.5348H18.1371C17.1164 53.5348 16.292 52.7227 16.292 51.7172C16.292 50.7117 17.1164 49.8996 18.1371 49.8996H53.8748C54.5814 49.8996 55.1572 49.3324 55.1572 48.6363V17.3766C55.1572 16.6805 54.5814 16.1133 53.8748 16.1133H18.1371C17.1164 16.1133 16.292 15.3012 16.292 14.2957C16.292 13.2902 17.1164 12.4781 18.1371 12.4781H53.8748C56.6229 12.4781 58.8605 14.6824 58.8605 17.3894V48.6363C58.8605 51.3305 56.6229 53.5348 53.8748 53.5348Z" fill="#2D527C"/>
@@ -307,11 +326,11 @@
                   <path d="M46.4158 31.1308C45.9447 31.1308 45.4736 30.9504 45.1072 30.6023C44.3875 29.8933 44.3875 28.7332 45.1072 28.0242L50.0537 23.1516C50.7734 22.4426 51.9512 22.4426 52.6709 23.1516C53.3906 23.8605 53.3906 25.0207 52.6709 25.7297L47.7244 30.6023C47.3711 30.9504 46.8869 31.1308 46.4158 31.1308Z" fill="#F0BF5F"/>
                   <path d="M38.8391 31.0406C38.368 31.0406 37.8969 30.8601 37.5305 30.5121L32.6756 25.7297C31.9559 25.0207 31.9559 23.8605 32.6756 23.1516C33.3953 22.4426 34.5731 22.4426 35.2928 23.1516L40.1477 27.934C40.8674 28.643 40.8674 29.8031 40.1477 30.5121C39.7944 30.873 39.3102 31.0406 38.8391 31.0406Z" fill="#F0BF5F"/>
                   <path d="M51.3623 43.3769C50.8912 43.3769 50.4201 43.1965 50.0537 42.8484L45.1334 38.0016C44.4137 37.2926 44.4137 36.1324 45.1334 35.4234C45.8531 34.7144 47.0309 34.7144 47.7506 35.4234L52.6709 40.2703C53.3906 40.9793 53.3906 42.1394 52.6709 42.8484C52.3045 43.1965 51.8334 43.3769 51.3623 43.3769Z" fill="#F0BF5F"/>
-                  </svg>
+                  </svg> -->
                   <p class="section-advantages-description">Повседневная практика показывает, что дальнейшее развитие различных форм</p>
               </li>
               <li class="section-advantages-item">
-                <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
+                <!-- <img src="/hotel_repo/img/background-advantages.png" alt="" class="section-advantages-item-background">
                 <svg class="section-advantages-icon" width="64" height="66" viewbox="0 0 64 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_96182_412)">
                   <path d="M32.7875 29.5453C31.8 29.5453 30.9875 28.7203 30.9875 27.6891V6.63867C31 3.32578 33.775 0.644531 37.2 0.644531C40.625 0.644531 43.4 3.33867 43.4 6.65156C43.4 7.66992 42.6 8.50781 41.6 8.50781C40.6 8.50781 39.8 7.68281 39.8 6.65156C39.8 5.38828 38.625 4.35703 37.1875 4.35703C35.75 4.35703 34.575 5.38828 34.575 6.65156V27.702C34.5875 28.7074 33.7875 29.5453 32.7875 29.5453Z" fill="#F0BF5F"/>
@@ -328,7 +347,7 @@
                   <rect width="64" height="66" fill="white"/>
                   </clippath>
                   </defs>
-                  </svg>
+                  </svg> -->
                   <p class="section-advantages-description">Значимость этого настолько очевидна, что консультация наших экспертов помогает</p>
               </li>
             </ul>
@@ -342,8 +361,8 @@
           </h2>
           <ul class="section-placing-list">
             <li class="section-placing-item">
-              <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
-              <img src="/hotel_repo/img/hot1.png" alt="" class="hotel-back">
+              <!-- <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
+              <img src="/hotel_repo/img/hot1.png" alt="" class="hotel-back"> -->
               <div class="section-placing-info">
                 <p class="section-placing-price">
                   от <b>4 698 р</b> / ночь
@@ -354,19 +373,19 @@
                 <p class="section-placing-country">
                   Барселона, Испания
                 </p>
-                <a href="" class="section-placing-numbers">Номера</a>
+                <div class="section-placing-stars">
+                  <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг 4 из 5" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star-empty.svg" alt="" class="section-placing-logo-star">
+                </div>
               </div>
-              <div class="section-placing-stars">
-                <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг фильма 4 из 5" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star-empty.svg" alt="" class="section-placing-logo-star">
-              </div>
+              <input type="button" class="section-placing-numbers" value="Номера">
             </li>
             <li class="section-placing-item">
-              <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
-              <img src="/hotel_repo/img/hot2.png" alt="" class="hotel-back">
+              <!-- <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
+              <img src="/hotel_repo/img/hot2.png" alt="" class="hotel-back"> -->
               <div class="section-placing-info">
                 <p class="section-placing-price">
                   от <b>5 148 р</b> / ночь
@@ -377,19 +396,19 @@
                 <p class="section-placing-country">
                   Барселона, Испания
                 </p>
-                <a href="" class="section-placing-numbers">Номера</a>
+                <div class="section-placing-stars">
+                  <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг 4 из 5" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star-empty.svg" alt="" class="section-placing-logo-star">
+                </div>
               </div>
-              <div class="section-placing-stars">
-                <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг фильма 4 из 5" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star-empty.svg" alt="" class="section-placing-logo-star">
-              </div>
+              <input type="button" class="section-placing-numbers" value="Номера">
             </li>
             <li class="section-placing-item">
-              <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
-              <img src="/hotel_repo/img/hot3.png" alt="" class="hotel-back">
+              <!-- <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
+              <img src="/hotel_repo/img/hot3.png" alt="" class="hotel-back"> -->
               <div class="section-placing-info">
                 <p class="section-placing-price">
                   от <b>6 254 р</b> / ночь
@@ -400,19 +419,19 @@
                 <p class="section-placing-country">
                   Барселона, Испания
                 </p>
-                <a href="" class="section-placing-numbers">Номера</a>
+                <div class="section-placing-stars">
+                  <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг 5 из 5" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                </div>
               </div>
-              <div class="section-placing-stars">
-                <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг фильма 5 из 5" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-              </div>
+              <input type="button" class="section-placing-numbers" value="Номера">
             </li>
             <li class="section-placing-item">
-              <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
-              <img src="/hotel_repo/img/hot4.png" alt="" class="hotel-back">
+              <!-- <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
+              <img src="/hotel_repo/img/hot4.png" alt="" class="hotel-back"> -->
               <div class="section-placing-info">
                 <p class="section-placing-price">
                   от <b>6 320 р</b> / ночь
@@ -423,19 +442,19 @@
                 <p class="section-placing-country">
                   Барселона, Испания
                 </p>
-                <a href="" class="section-placing-numbers">Номера</a>
+                <div class="section-placing-stars">
+                  <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг 5 из 5" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                </div>
               </div>
-              <div class="section-placing-stars">
-                <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг фильма 5 из 5" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-              </div>
+              <input type="button" class="section-placing-numbers" value="Номера">
             </li>
             <li class="section-placing-item">
-              <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
-              <img src="/hotel_repo/img/hot5.png" alt="" class="hotel-back">
+              <!-- <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
+              <img src="/hotel_repo/img/hot5.png" alt="" class="hotel-back"> -->
               <div class="section-placing-info">
                 <p class="section-placing-price">
                   от <b>6 457 р</b> / ночь
@@ -446,19 +465,19 @@
                 <p class="section-placing-country">
                   Барселона, Испания
                 </p>
-                <a href="" class="section-placing-numbers">Номера</a>
+                <div class="section-placing-stars">
+                  <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг 4 из 5" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star-empty.svg" alt="" class="section-placing-logo-star">
+                </div>
               </div>
-              <div class="section-placing-stars">
-                <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг фильма 4 из 5" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star-empty.svg" alt="" class="section-placing-logo-star">
-              </div>
+              <input type="button" class="section-placing-numbers" value="Номера">
             </li>
             <li class="section-placing-item">
-              <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
-              <img src="/hotel_repo/img/hot6.png" alt="" class="hotel-back">
+              <!-- <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
+              <img src="/hotel_repo/img/hot6.png" alt="" class="hotel-back"> -->
               <div class="section-placing-info">
                 <p class="section-placing-price">
                   от <b>6 320 р</b> / ночь
@@ -469,19 +488,19 @@
                 <p class="section-placing-country">
                   Барселона, Испания
                 </p>
-                <a href="" class="section-placing-numbers">Номера</a>
+                <div class="section-placing-stars">
+                  <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг 4 из 5" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star-empty.svg" alt="" class="section-placing-logo-star">
+                </div>
               </div>
-              <div class="section-placing-stars">
-                <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг фильма 4 из 5" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star-empty.svg" alt="" class="section-placing-logo-star">
-              </div>
+              <input type="button" class="section-placing-numbers" value="Номера">
             </li>
             <li class="section-placing-item">
-              <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
-              <img src="/hotel_repo/img/hot7.png" alt="" class="hotel-back">
+              <!-- <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
+              <img src="/hotel_repo/img/hot7.png" alt="" class="hotel-back"> -->
               <div class="section-placing-info">
                 <p class="section-placing-price">
                   от <b>6 505 р</b> / ночь
@@ -492,19 +511,19 @@
                 <p class="section-placing-country">
                   Барселона, Испания
                 </p>
-                <a href="" class="section-placing-numbers">Номера</a>
+                <div class="section-placing-stars">
+                  <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг 5 из 5" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                  <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                </div>
               </div>
-              <div class="section-placing-stars">
-                <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг фильма 5 из 5" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-              </div>
+              <input type="button" class="section-placing-numbers" value="Номера">
             </li>
             <li class="section-placing-item">
-              <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
-              <img src="/hotel_repo/img/hot8.png" alt="" class="hotel-back">
+              <!-- <img src="/hotel_repo/img/background-placing.png" alt="" class="section-placing-item-background">
+              <img src="/hotel_repo/img/hot8.png" alt="" class="hotel-back"> -->
               <div class="section-placing-info">
                 <p class="section-placing-price">
                   от <b>6 824 р</b> / ночь
@@ -513,24 +532,23 @@
                   Lagoona suerte siguió siempre
                 </p>
                 <p class="section-placing-country">
-                  Барселона, Испания
-                </p>
-                <a href="" class="section-placing-numbers">Номера</a>
+                  Барселона, Испания </p>
+                  <div class="section-placing-stars">
+                    <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг 4 из 5" class="section-placing-logo-star">
+                    <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                    <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                    <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
+                    <img src="/hotel_repo/img/i-star-empty.svg" alt="" class="section-placing-logo-star">
+                  </div>
               </div>
-              <div class="section-placing-stars">
-                <img src="/hotel_repo/img/i-star.svg" alt="Рейтинг фильма 4 из 5" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star.svg" alt="" class="section-placing-logo-star">
-                <img src="/hotel_repo/img/i-star-empty.svg" alt="" class="section-placing-logo-star">
-              </div>
+              <input type="button" class="section-placing-numbers" value="Номера">
             </li>
             <li class="section-placing-item">
-              <img src="/hotel_repo/img/all.png" alt="" class="hotel-back">
+              <!-- <img src="/hotel_repo/img/all.png" alt="" class="hotel-back"> -->
               <div class="section-placing-all">
-                <h2 class="section-placing-all-header">
+                <p class="section-placing-all-header">
                   Посмотреть все варианты
-                </h2>
+                </p>
               </div>
             </li>
           </ul>
