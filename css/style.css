@@ -197,12 +197,12 @@ html {
   }
 
 .card-up {
-  background: url('/hotel_repo/img/card1.png') 100% 100% no-repeat;
+  background: url('../img/card1.png') 100% 100% no-repeat;
   background-size: cover;
 }
 
 .card-down {
-  background: url('/hotel_repo/img/card2.png') 100% 100% no-repeat;
+  background: url('../img/card2.png') 100% 100% no-repeat;
   background-size: cover;
 }
 
@@ -269,7 +269,7 @@ html {
 .right-card {
   margin-right: 0;
   height: 539px;
-  background: url('/hotel_repo/img/card3.png') 100% 100% no-repeat;
+  background: url('../img/card3.png') 100% 100% no-repeat;
   background-size: cover;
 }
 
@@ -370,25 +370,25 @@ html {
 }
 
 .part1 {
-  background: url(/hotel_repo/img/upimg1.png) top center no-repeat, #FFFFFF;
+  background: url(../img/upimg1.png) top center no-repeat, #FFFFFF;
   background-blend-mode: normal;
   border-radius: 15px;
 }
 
 .part2 {
-  background: url(/hotel_repo/img/upimg2.png) top center no-repeat, #FFFFFF;
+  background: url(../img/upimg2.png) top center no-repeat, #FFFFFF;
   background-blend-mode: normal;
   border-radius: 15px;
 }
 
 .part3 {
-  background: url(/hotel_repo/img/upimg3.png) top center no-repeat, #FFFFFF;
+  background: url(../img/upimg3.png) top center no-repeat, #FFFFFF;
   background-blend-mode: normal;
   border-radius: 15px;
 }
 
 .part4 {
-  background: url(/hotel_repo/img/upimg4.png) top center no-repeat, #FFFFFF;
+  background: url(../img/upimg4.png) top center no-repeat, #FFFFFF;
   background-blend-mode: normal;
   border-radius: 15px;
 }
@@ -475,56 +475,56 @@ html {
 
 .advantage1 {
  
-  background: url(/hotel_repo/img/bathtub.svg) no-repeat, #FFFFFF;
+  background: url(../img/bathtub.svg) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top 40px left 40px;
   border-radius: 15px;
 }
 
 .adv2 {
-  background: url(/hotel_repo/img/hanger.svg) no-repeat, #FFFFFF;
+  background: url(../img/hanger.svg) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top 40px left 40px;
   border-radius: 15px;
 }
 
 .adv3 {
-  background: url(/hotel_repo/img/heating.svg) no-repeat, #FFFFFF;
+  background: url(../img/heating.svg) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top 40px left 40px;
   border-radius: 15px;
 }
 
 .adv4 {
-  background: url(/hotel_repo/img/hotel-key.svg) no-repeat, #FFFFFF;
+  background: url(../img/hotel-key.svg) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top 40px left 40px;
   border-radius: 15px;
 }
 
 .adv5 {
-  background: url(/hotel_repo/img/parking.svg) no-repeat, #FFFFFF;
+  background: url(../img/parking.svg) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top 40px left 40px;
   border-radius: 15px;
 }
 
 .adv6 {
-  background: url(/hotel_repo/img/reception.svg) no-repeat, #FFFFFF;
+  background: url(../img/reception.svg) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top 40px left 40px;
   border-radius: 15px;
 }
 
 .adv7 {
-  background: url(/hotel_repo/img/security-box.svg) no-repeat, #FFFFFF;
+  background: url(../img/security-box.svg) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top 40px left 40px;
   border-radius: 15px;
 }
 
 .adv8 {
-  background: url(/hotel_repo/img/swimming-pool.svg) no-repeat, #FFFFFF;
+  background: url(../img/swimming-pool.svg) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top 40px left 40px;
   border-radius: 15px;
@@ -596,56 +596,56 @@ html {
 }
 
 .plc1 {
-  background: url(/hotel_repo/img/hot1.png) no-repeat, #FFFFFF;
+  background: url(../img/hot1.png) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top center;
   border-radius: 15px;
 }
 
 .plc2 {
-  background: url(/hotel_repo/img/hot2.png) no-repeat, #FFFFFF;
+  background: url(../img/hot2.png) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top center;
   border-radius: 15px;
 }
 
 .plc3 {
-  background: url(/hotel_repo/img/hot3.png) no-repeat, #FFFFFF;
+  background: url(../img/hot3.png) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top center;
   border-radius: 15px;
 }
 
 .plc4 {
-  background: url(/hotel_repo/img/hot4.png) no-repeat, #FFFFFF;
+  background: url(../img/hot4.png) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top center;
   border-radius: 15px;
 }
 
 .plc5 {
-  background: url(/hotel_repo/img/hot5.png) no-repeat, #FFFFFF;
+  background: url(../img/hot5.png) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top center;
   border-radius: 15px;
 }
 
 .plc6 {
-  background: url(/hotel_repo/img/hot6.png) no-repeat, #FFFFFF;
+  background: url(../img/hot6.png) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top center;
   border-radius: 15px;
 }
 
 .plc7 {
-  background: url(/hotel_repo/img/hot7.png) no-repeat, #FFFFFF;
+  background: url(../img/hot7.png) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top center;
   border-radius: 15px;
 }
 
 .plc8 {
-  background: url(/hotel_repo/img/hot8.png) no-repeat, #FFFFFF;
+  background: url(../img/hot8.png) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: top center;
   border-radius: 15px;
@@ -728,7 +728,7 @@ html {
 
 .plc9 {
   padding: 0;
-  background: url(/hotel_repo/img/all.png) no-repeat, #FFFFFF;
+  background: url(../img/all.png) no-repeat, #FFFFFF;
   background-blend-mode: normal;
   background-position: center center;
   border-radius: 15px;
