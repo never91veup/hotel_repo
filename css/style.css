@@ -27,6 +27,7 @@ img {
 
 html {
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 .container {

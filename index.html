@@ -4,6 +4,35 @@
     <meta charset="UTF-8" />
     <title>Hotels</title>
     <link rel="stylesheet" href="../hotel_repo/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Добавить плавную прокрутку до всех ссылок
+        $("a").on("click", function (event) {
+          // Убедись в этом что .hash имеет значение перед переопределением поведения по умолчанию
+          if (this.hash !== "") {
+            // Запретить поведение щелчка якоря по умолчанию
+            event.preventDefault();
+
+            // Хранить хэш
+            var hash = this.hash;
+
+            // Использование метода animate() jQuery для добавления плавной прокрутки страницы
+            // Необязательное число (800) указывает количество миллисекунд, необходимых для прокрутки до указанной области
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Добавить хэш (#) для URL-адреса после завершения прокрутки (поведение щелчка по умолчанию)
+                window.location.hash = hash;
+              }
+            );
+          } // Конец, если
+        });
+      });
+    </script>
   </head>
   <body>
     <header class="header">
@@ -688,7 +717,7 @@
               <li class="section-contacts-item">
                 <strong class="section-contacts-heading">График</strong>
                 <div class="section-contacts-info">
-                  Понедельник - пятница,<br>с 10:00 до 19:00
+                  Понедельник - пятница,<br />с 10:00 до 19:00
                 </div>
               </li>
               <li class="section-contacts-item but">
@@ -714,11 +743,11 @@
         <ul class="footer-list">
           <li class="footer-item">
             <div class="footer-info">
-              © 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»<br><br>Представленная на сайте информация носит справочный характер и не является публичной офертой
+              © 2012-2020 Управляющая компания Объединенной сети «Лагуна
+              Хотелс»<br /><br />Представленная на сайте информация носит
+              справочный характер и не является публичной офертой
             </div>
-            <div class="footer-link">
-              Пользовательское соглашение
-            </div>
+            <div class="footer-link">Пользовательское соглашение</div>
           </li>
           <li class="footer-item numb">
             <div class="footer-info">
@@ -734,19 +763,13 @@
               </a>
             </div>
             <div class="footer-link">
-              <a
-              href="mailto:lg.oona@mail.ru"
-              class="footer-link-info"
-            >
-              lg.oona@mail.ru
-            </a>
-            <br />
-            <a
-              href="mailto:hotels.ln@mail.ru"
-              class="footer-link-info"
-            >
-              hotels.ln@mail.ru
-            </a>
+              <a href="mailto:lg.oona@mail.ru" class="footer-link-info">
+                lg.oona@mail.ru
+              </a>
+              <br />
+              <a href="mailto:hotels.ln@mail.ru" class="footer-link-info">
+                hotels.ln@mail.ru
+              </a>
             </div>
           </li>
           <li class="footer-item icons">
@@ -754,16 +777,22 @@
               <span class="footer-social-icon footer-social-icon-trip"></span>
             </a>
             <a href="" class="footer-link-icon">
-              <span class="footer-social-icon footer-social-icon-twitter"></span>
+              <span
+                class="footer-social-icon footer-social-icon-twitter"
+              ></span>
             </a>
             <a href="" class="footer-link-icon">
-              <span class="footer-social-icon footer-social-icon-facebook"></span>
+              <span
+                class="footer-social-icon footer-social-icon-facebook"
+              ></span>
             </a>
             <a href="" class="footer-link-icon">
               <span class="footer-social-icon footer-social-icon-social"></span>
             </a>
             <a href="" class="footer-link-icon">
-              <span class="footer-social-icon footer-social-icon-instagram"></span>
+              <span
+                class="footer-social-icon footer-social-icon-instagram"
+              ></span>
             </a>
           </li>
         </ul>
