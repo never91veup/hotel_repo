@@ -34,22 +34,22 @@
             <nav class="nav">
               <ul class="nav-list">
                 <li class="nav-item">
-                  <a href="" class="nav-link">О нас</a>
+                  <a href="#aboutus" class="nav-link">О нас</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Услуги</a>
+                  <a href="#services" class="nav-link">Услуги</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Преимущества</a>
+                  <a href="#advantages" class="nav-link">Преимущества</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Размещение</a>
+                  <a href="#placing" class="nav-link">Размещение</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Блог</a>
+                  <a href="#form" class="nav-link">Блог</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Контакты</a>
+                  <a href="#contacts" class="nav-link">Контакты</a>
                 </li>
               </ul>
             </nav>
@@ -112,7 +112,7 @@
         </div>
       </section>
 
-      <section class="section-aboutus">
+      <section class="section-aboutus" id="aboutus">
         <div class="container">
           <div class="section-aboutus-container">
             <h2 class="section-aboutus-header">О нас</h2>
@@ -131,7 +131,7 @@
         </div>
       </section>
 
-      <section class="section-services">
+      <section class="section-services" id="services">
         <div class="container">
           <h2 class="section-services-header">Услуги</h2>
           <ul class="section-services-list">
@@ -183,7 +183,7 @@
         </div>
       </section>
 
-      <section class="section-advantages">
+      <section class="section-advantages" id="advantages">
         <div class="container">
           <h2 class="section-advantages-header">Преимущества</h2>
           <ul class="section-advantages-list">
@@ -239,7 +239,7 @@
         </div>
       </section>
 
-      <section class="section-placing">
+      <section class="section-placing" id="placing">
         <div class="container">
           <h2 class="section-placing-header">Размещение</h2>
           <ul class="section-placing-list">
@@ -569,6 +569,205 @@
           </ul>
         </div>
       </section>
+
+      <section class="section-form" id="form">
+        <div class="container form-container">
+          <h2 class="section-form-title form-title">Хочу тур</h2>
+          <form
+            action="https://jsonplaceholder.typicode.com/posts"
+            autocomplete
+            method="POST"
+            class="form"
+          >
+            <ul class="section-form-list">
+              <!-- <legend>Форма обратной связи</legend> -->
+              <!-- <label for="name">Enter your name</label> -->
+              <li class="section-form-container-city">
+                <p class="section-form-header">Город вылета</p>
+                <select
+                  size="1"
+                  name="city"
+                  class="section-form-select-item select-align"
+                >
+                  <option>Санкт-Петербург</option>
+                  <option>Сидней</option>
+                  <option>Париж</option>
+                </select>
+              </li>
+              <li class="section-form-container-country">
+                <p class="section-form-header">Страна</p>
+                <select
+                  size="1"
+                  name="country"
+                  class="section-form-select-item select-align"
+                >
+                  <option>Австралия</option>
+                  <option>Россия</option>
+                  <option>Франция</option>
+                </select>
+              </li>
+              <li class="section-form-container-date">
+                <p class="section-form-header">Дата прибытия</p>
+                <input
+                  type="date"
+                  name="date"
+                  value="2021-10-18"
+                  class="section-form-date"
+                />
+              </li>
+              <li class="section-form-container-nights">
+                <p class="section-form-header others">Ночей</p>
+                <input
+                  type="number"
+                  value="6"
+                  name="nights"
+                  class="section-form-nights-number"
+                />
+              </li>
+              <li class="section-form-container-tourists">
+                <p class="section-form-header others">Туристы</p>
+                <input
+                  type="number"
+                  value="2"
+                  name="tourists"
+                  class="section-form-tourists-number"
+                />
+              </li>
+              <button type="submit" class="btn btn-submit">Найти</button>
+            </ul>
+          </form>
+        </div>
+      </section>
+
+      <section class="section-contacts" id="contacts">
+        <div class="container section-contacts-container">
+          <h2 class="section-contacts-header">Контакты</h2>
+          <div class="section-contacts-container-inner">
+            <ul class="section-contacts-list">
+              <li class="section-contacts-item">
+                <strong class="section-contacts-heading">Адрес</strong>
+                <div class="section-contacts-info">
+                  Москва, улица Юности, дом 5 строение 4, офис 2
+                </div>
+              </li>
+              <li class="section-contacts-item">
+                <strong class="section-contacts-heading">Телефоны</strong>
+                <div class="section-contacts-info">
+                  <a href="tel:+74995356434" class="section-contacts-link">
+                    +7 (499) 535-64-34
+                  </a>
+                  <br />
+                  <a href="tel:+74950050544" class="section-contacts-link">
+                    +7 (495) 005-05-44
+                  </a>
+                </div>
+              </li>
+              <li class="section-contacts-item">
+                <strong class="section-contacts-heading">E-mail</strong>
+                <div class="section-contacts-info">
+                  <a
+                    href="mailto:lg.oona@mail.ru"
+                    class="section-contacts-link"
+                  >
+                    lg.oona@mail.ru
+                  </a>
+                  <div class="section-contacts-link-info">
+                    по вопросам бронирования
+                  </div>
+                  <a
+                    href="mailto:hotels.ln@mail.ru"
+                    class="section-contacts-link"
+                  >
+                    hotels.ln@mail.ru
+                  </a>
+                  <div class="section-contacts-link-info">
+                    по вопросам сотрудничества
+                  </div>
+                </div>
+              </li>
+              <li class="section-contacts-item">
+                <strong class="section-contacts-heading">График</strong>
+                <div class="section-contacts-info">
+                  Понедельник - пятница,<br>с 10:00 до 19:00
+                </div>
+              </li>
+              <li class="section-contacts-item but">
+                <input
+                  type="button"
+                  class="section-contacts-button"
+                  value="Построить маршрут"
+                />
+              </li>
+            </ul>
+            <img
+              src="../hotel_repo/img/contacts.png"
+              alt="Ресепшн в офисе"
+              class="section-contacts-img"
+            />
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <div class="footer-info">
+              © 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»<br><br>Представленная на сайте информация носит справочный характер и не является публичной офертой
+            </div>
+            <div class="footer-link">
+              Пользовательское соглашение
+            </div>
+          </li>
+          <li class="footer-item numb">
+            <div class="footer-info">
+              11710, улица Юности, дом 5 строение 4, офис 2
+            </div>
+            <div class="footer-link">
+              <a href="tel:+74995356434" class="footer-link-info">
+                +7 (499) 535-64-34
+              </a>
+              <br />
+              <a href="tel:+74950050544" class="footer-link-info">
+                +7 (495) 005-05-44
+              </a>
+            </div>
+            <div class="footer-link">
+              <a
+              href="mailto:lg.oona@mail.ru"
+              class="footer-link-info"
+            >
+              lg.oona@mail.ru
+            </a>
+            <br />
+            <a
+              href="mailto:hotels.ln@mail.ru"
+              class="footer-link-info"
+            >
+              hotels.ln@mail.ru
+            </a>
+            </div>
+          </li>
+          <li class="footer-item icons">
+            <a href="" class="footer-link-icon">
+              <span class="footer-social-icon footer-social-icon-trip"></span>
+            </a>
+            <a href="" class="footer-link-icon">
+              <span class="footer-social-icon footer-social-icon-twitter"></span>
+            </a>
+            <a href="" class="footer-link-icon">
+              <span class="footer-social-icon footer-social-icon-facebook"></span>
+            </a>
+            <a href="" class="footer-link-icon">
+              <span class="footer-social-icon footer-social-icon-social"></span>
+            </a>
+            <a href="" class="footer-link-icon">
+              <span class="footer-social-icon footer-social-icon-instagram"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

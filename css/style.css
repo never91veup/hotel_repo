@@ -120,7 +120,7 @@ html {
   padding-bottom: 10px;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   background: #FFFFFF;
   border-radius: 15px;
 }
@@ -755,4 +755,373 @@ html {
   background-size: 11px 18px;
   background-repeat: no-repeat;
   color: #FFFFFF;
+}
+
+/* Form */
+
+.section-form {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.form-container {
+  background: #E9E9E9;
+  border-radius: 15px;
+}
+
+.section-form-title {
+  margin-top: 0;
+  margin-bottom: 19px;
+  margin-left: 40px;
+  padding-top: 38px;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.form-title {
+  text-align: left;
+}
+
+.form {
+  padding: 28px 45px 71px 45px;
+  margin: 0;
+}
+
+.section-form-list {
+  margin: 0;
+  padding: 31px 28px 32px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.section-form-header {
+  margin-bottom: 15px;
+  margin-top: 0;
+  padding-left: 4px;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.section-form-container-city,
+.section-form-container-country {
+  width: 170px;
+  height: 43px;
+  padding-right: 20px;
+}
+
+
+.section-form-container-date,
+.section-form-container-nights,
+.section-form-container-tourists {
+  width: 142px;
+  height: 43px;
+}
+
+.section-form-select-item {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  border: none;
+  padding-inline-start: 0;
+}
+
+.section-form-country-header {
+  margin-bottom: 15px;
+  padding-left: 5px;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.others {
+  padding: 0;
+}
+
+.section-form-date {
+  border: none;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.section-form-tourists-number,
+.section-form-nights-number {
+  padding: 0;
+  width: 121px;
+  padding-right: 20px;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.btn-submit {
+  padding: 13px 30px;
+  border: 1px solid #CC9933;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #CC9933;
+}
+
+.select-align {
+  width: 100%;
+  padding: 0;
+}
+
+.section-form-container-city,
+.section-form-container-country,
+.section-form-container-date,
+.section-form-container-nights,
+.section-form-container-tourists {
+  border-right: 1px solid #E1E1E1;
+}
+
+/* Contacts */
+
+.section-contacts {
+  padding-top: 70px;
+}
+
+.section-contacts-header {
+  margin-top: 0;
+  margin-bottom: 26px;
+  margin-left: 40px;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+}
+
+.section-contacts-container-inner {
+  padding: 44px 44px 46px 46px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-contacts-list {
+  height: 528px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.section-contacts-item {
+  flex: 1 1 auto;
+  width: 100%;
+  display: flex;
+}
+
+.section-contacts-item:not(:first-child) {
+  margin-top: 25px;
+}
+
+.section-contacts-item:not(:last-child) {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.section-contacts-heading {
+  min-width: 137px;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.section-contacts-info {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.section-contacts-link {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #CC9933;
+}
+
+.section-contacts-link-info {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #999999;
+}
+
+.section-contacts-button {
+  width: 211px;
+  height: 68px;
+  padding: 25px 29px;
+  border: 1px solid #CC9933;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;
+}
+
+.but {
+  align-items: flex-end;
+}
+
+.section-contacts-img {
+  min-width: 653px;
+}
+
+/* Footer */
+
+.footer {
+  height: 341px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.footer-container {
+  height: 100%;
+  width: 100%;
+  background: url('../img/footer-background.png') 100% 100% no-repeat;
+  border-radius: 15px;
+}
+
+.footer-list {
+  padding: 51px;
+  height: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+}
+
+.footer-item {
+  height: 100%;
+  flex: 1 1 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-info {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  color: #FFFFFF;
+}
+
+.footer-link {
+  margin-top: 14px;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #CC9933;
+}
+
+.numb {
+  margin-left: 90px;
+  justify-content: flex-start;
+}
+
+.footer-link-info {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #CC9933;
+}
+
+.icons {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.footer-social-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center center;
+}
+
+.footer-social-icon-trip {
+  width: 25px;
+  height: 25px;
+  background-image: url('../img/trip.svg');
+}
+
+.footer-social-icon-twitter {
+  width: 25px;
+  height: 25px;
+  background-image: url('../img/twitter.svg');
+}
+
+.footer-social-icon-facebook {
+  width: 25px;
+  height: 25px;
+  background-image: url('../img/facebook.svg');
+}
+
+.footer-social-icon-social {
+  width: 25px;
+  height: 25px;
+  background-image: url('../img/social.svg');
+}
+
+.footer-social-icon-instagram {
+  width: 25px;
+  height: 25px;
+  background-image: url('../img/instagram.svg');
+}
+
+.footer-link-icon:not(:first-child) {
+  margin-top: 20px;
 }
