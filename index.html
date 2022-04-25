@@ -660,6 +660,7 @@
                   value="2"
                   name="tourists"
                   class="section-form-tourists-number"
+                  required
                 />
               </li>
               <button type="submit" class="btn btn-submit">Найти</button>
@@ -676,7 +677,9 @@
               <li class="section-contacts-item">
                 <strong class="section-contacts-heading">Адрес</strong>
                 <div class="section-contacts-info">
-                  Москва, улица Юности, дом 5 строение 4, офис 2
+                  <address>
+                    Москва, улица Юности, дом 5 строение 4, офис 2
+                  </address>
                 </div>
               </li>
               <li class="section-contacts-item">
@@ -721,11 +724,16 @@
                 </div>
               </li>
               <li class="section-contacts-item but">
-                <input
-                  type="button"
-                  class="section-contacts-button"
-                  value="Построить маршрут"
-                />
+                <form
+                  action="http://www.google.com/maps/place/ул.+Юности,+5+корпус+2,+Москва,+Moscow+Oblast,+111395/@55.7292852,37.8104414,17z/data=!3m1!4b1!4m5!3m4!1s0x414aca7eb145d2d9:0x1b2cee5666c5567!8m2!3d55.7292822!4d37.8126301?"
+                  method="LINK"
+                >
+                  <input
+                    type="submit"
+                    class="section-contacts-button"
+                    value="Построить маршрут"
+                  />
+                </form>
               </li>
             </ul>
             <img
@@ -751,7 +759,7 @@
           </li>
           <li class="footer-item numb">
             <div class="footer-info">
-              11710, улица Юности, дом 5 строение 4, офис 2
+              <address>11710, улица Юности, дом 5 строение 4, офис 2</address>
             </div>
             <div class="footer-link">
               <a href="tel:+74995356434" class="footer-link-info">
