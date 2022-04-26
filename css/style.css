@@ -36,17 +36,17 @@ html {
   margin-right: auto;
 }
 
-/* .btn {
-  display: inline-block;
+.btn {
+  /* display: inline-block;
   padding: 15px 16px;
   font-size: 12px;
   line-height: 1;
   text-transform: uppercase;
   color: white;
   background-color: #3172b9;
-  border-radius: 4px;
+  border-radius: 4px; */
   cursor: pointer;
-} */
+}
 
 /* .text-center {
   text-align: center;
