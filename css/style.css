@@ -45,7 +45,16 @@ html {
   color: white;
   background-color: #3172b9;
   border-radius: 4px; */
+  transition-property: background-color, color;
+  transition-duration: .3s;
+  transition-timing-function: ease;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #CC9933;
+  color: #666666;
+  transform: translateY(1px);
 }
 
 /* .text-center {
@@ -442,10 +451,10 @@ html {
 /* Advantages */
 
 .section-advantages {
-  padding-bottom: 70px;
+  padding-bottom: 47px;
 }
 
-.section-advantages-header {
+.section-advantages__header {
   margin-bottom: 30px;
   margin-left: 40px;
   margin-top: 0;
@@ -457,101 +466,71 @@ html {
   color: #333333;
 }
 
-.section-advantages-list {
+.section-advantages__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.section-advantages-item {
+.section-advantages__item {
   width: 275px;
   height: 275px;
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start; */
-  /* align-items: center; */
   justify-content: flex-end;
   padding: 116px 42px 41px 45px;
   margin-bottom: 23px;
 } 
 
 .advantage1 {
- 
-  background: url(../img/bathtub.svg) no-repeat, #FFFFFF;
-  background-blend-mode: normal;
-  background-position: top 40px left 40px;
-  border-radius: 15px;
+   background: url(../img/bathtub.svg) no-repeat, #FFFFFF;
 }
 
 .adv2 {
   background: url(../img/hanger.svg) no-repeat, #FFFFFF;
-  background-blend-mode: normal;
-  background-position: top 40px left 40px;
-  border-radius: 15px;
 }
 
 .adv3 {
   background: url(../img/heating.svg) no-repeat, #FFFFFF;
-  background-blend-mode: normal;
-  background-position: top 40px left 40px;
-  border-radius: 15px;
 }
 
 .adv4 {
   background: url(../img/hotel-key.svg) no-repeat, #FFFFFF;
-  background-blend-mode: normal;
-  background-position: top 40px left 40px;
-  border-radius: 15px;
 }
 
 .adv5 {
   background: url(../img/parking.svg) no-repeat, #FFFFFF;
-  background-blend-mode: normal;
-  background-position: top 40px left 40px;
-  border-radius: 15px;
 }
 
 .adv6 {
   background: url(../img/reception.svg) no-repeat, #FFFFFF;
-  background-blend-mode: normal;
-  background-position: top 40px left 40px;
-  border-radius: 15px;
 }
 
 .adv7 {
   background: url(../img/security-box.svg) no-repeat, #FFFFFF;
-  background-blend-mode: normal;
-  background-position: top 40px left 40px;
-  border-radius: 15px;
 }
 
 .adv8 {
   background: url(../img/swimming-pool.svg) no-repeat, #FFFFFF;
+}
+
+.advantage1,
+.adv2,
+.adv3,
+.adv4,
+.adv5,
+.adv6,
+.adv7,
+.adv8 {
   background-blend-mode: normal;
   background-position: top 40px left 40px;
   border-radius: 15px;
 }
 
-.section-advantages-item:not(:nth-child(4n)) {
+.section-advantages__item:not(:nth-child(4n)) {
   margin-right: 23px;
 }
 
-.section-advantages-item:nth-child(5) {
-  margin-bottom: 0;
-}
-
-.section-advantages-item:nth-child(6) {
-  margin-bottom: 0;
-}
-
-.section-advantages-item:nth-child(7) {
-  margin-bottom: 0;
-}
-
-.section-advantages-item:nth-child(8) {
-  margin-bottom: 0;
-}
-
-.section-advantages-description {
+.section-advantages__description {
   margin: 0;
   /* margin: 116px 42px 41px 45px; */
   height: 118px;
@@ -710,11 +689,7 @@ html {
 .section-placing-numbers {
   margin-top: 20px;
   padding: 13px 20px;
-  width: 100px;
-  height: 42px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  max-width: 100px;
   font-family: 'Muller';
   font-style: normal;
   font-weight: 400;
@@ -886,6 +861,11 @@ html {
   box-sizing: border-box;
   background-color: #fff;
   border-radius: 10px;
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
   color: #CC9933;
 }
 
